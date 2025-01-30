@@ -1,0 +1,6 @@
+name: Redwood guest job on owner nodes
+notes: Preemptable job on Redwood owner nodes, useful for quick checks or restartable calculations
+script: redwood_guest_job.sh
+host: redwood 
+
+

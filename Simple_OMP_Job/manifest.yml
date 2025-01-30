@@ -1,0 +1,7 @@
+name: Simple OpenMP Job
+host: redwood
+script: omp-hello.sh
+notes: >
+        Hello OpenMP World prints the number of threads and the current thread id.
+        This example uses 1 node with 16 cores on Redwood. Redwood nodes could use anywhere between 16 and 64 cores; the OMP_NUM_THREADS environment variable would also be set accordingly . A program must be written to take advantage of multithreading for this to work.
+

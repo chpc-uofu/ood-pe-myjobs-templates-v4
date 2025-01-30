@@ -1,0 +1,6 @@
+name: Redwood job on general nodes
+notes: Uses user's group allocation, supplied in the "Account" section; will not work if group does not have an allocation
+script: redwood_general_job.sh
+host: redwood
+
+
